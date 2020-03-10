@@ -6,6 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/omnix-inc/cars/style/odometer-theme-car.css">
+    <script src="/omnix-inc/cars/js/odometer.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141206892-3"></script>
     <script>
@@ -16,7 +23,7 @@
         gtag('config', 'UA-141206892-3');
     </script>
 
-
+    <script src="/omnix-inc/cars/js/carScript.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/omnix-inc/fullPage/src/fullpage.css" />
 
@@ -85,37 +92,89 @@
         <div class="section">
             <div class="row" style="height: 100%;">
                 <div class="col-md modA">
-                   
+                    <div id="odometer" class="odometer">000000</div>
                 </div>
                 <div class="col-md modB">
                     <div class="circ">
-                        <h2>About The Car</h2>
-                        <br>
-                        <h3>The Omnix A is the perfect sedan for the adventurer within you. With a slim design and
-                            powerful engine, it works in all conditions. This sedan is built around the consumer. It is
-                            the perfect vestibule for success.
-                        </h3>
-                        <h2>Specs</h2>
-                        <br>
+                        <div class="all">
+                            <h2>About The Car</h2>
+                            <br>
+                            <h3>The Omnix A is the perfect sedan for the adventurer within you. With a slim design and
+                                powerful engine, it works in all conditions. This sedan is built around the consumer. It
+                                is
+                                the perfect vestibule for success.
+                            </h3>
+                            <h2>Specs</h2>
+                            <br>
+                            <div class="row">
+                                <div class="col-md lft">
+                                    <h3>Drivetrain</h3>
+                                    <p>Two wheel powered drive. Only back motors are powered.</p>
+                                    <h3>Acceleration</h3>
+                                    <p>Can go from 0 mph to 60 mph in 4 seconds.</p>
+                                    <h3>Top Speed</h3>
+                                    <p>300 mph</p>
 
-                        <h3>
-                            <ul>
-                                <li>Drivetrain: Two wheel powered drive. Only back motors are powered.</li>
-                                <li>Acceleration: Can go from 0 mph to 60 mph in 4 seconds.</li>
-                                <li>Top Speed: 300 mph</li>
-                                <li>Range: 900 to 1000 miles</li>
-                                <li>Seats: Two layers of seats. Two seats in the front row and three seats on a bench style</li>
-                                <li>seating on the back row.</li>
-                                <li>Cargo Volume: 80 cubic feet</li>
-                                <li>Has fast charging if used with Omnix fast charger</li>
-                            </ul>
-                        </h3>
+                                </div>
+                                <div class="col-md lft">
+                                    <h3>Range</h3>
+                                    <p>900 to 1000 miles</p>
+                                    <h3>Seats</h3>
+                                    <p>Two layers of seats. Two seats in the front row and three seats on a bench style
+                                        seating on the back row.</p>
+                                    <h3>Cargo Volume</h3>
+                                    <p>80 cubic feet</p>
+                                    <p>Has fast charging if used with Omnix fast charger</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section">
             <div class="erd">
+                <h1>Even More Options</h1>
+                <div class="row">
+                    <div class="otherdV"></div>
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="card-header" style="width: auto;">
+                                Featured
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="card-header" style="width: auto;">
+                                Featured
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="card-header" style="width: auto;">
+                                Featured
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <footer id="footer" class="footer-1">
                     <div class="main-footer widgets-dark typo-light">
                         <div class="container">
@@ -217,9 +276,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
