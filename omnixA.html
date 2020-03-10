@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141206892-3"></script>
     <script>
@@ -16,7 +20,9 @@
         gtag('config', 'UA-141206892-3');
     </script>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,8 +31,12 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Crimson+Text&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="cars/style/carStyle.css">
+    <link rel="stylesheet" href="cars2/style/carStyle.css">
     <title>Ominix Inc: Omnix A</title>
+
+    <script src="cars2/js/carScript.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -58,9 +68,67 @@
         </div>
     </nav>
 
-    
+    <div class="bg">
+        <div class="hedr">
+            <h1>Omnix A</h1>
+            <h2>For the Adventurer Within.</h2>
+        </div>
+    </div>
 
-    <footer id="footer" class="footer-1">
+    <div class="row">
+        <div class="col-md modA">
+            <div class="iAge"></div>
+        </div>
+        <div class="col-md modA">
+            <div class="Stats">
+                <h2>Stat Breakdown</h2>
+                <div class="row">
+                    <div class="col-md">
+                        <h3>Drivetrain</h3>
+                        <p>Two wheel powered drive. Only back motors are powered.</p>
+                        <h3>Acceleration</h3>
+                        <p>Can go from 0 mph to 60 mph in 4 seconds.</p>
+                        <h3>Top Speed</h3>
+                        <p>300 mph</p>
+
+                    </div>
+                    <div class="col-md">
+                        <h3>Range</h3>
+                        <p>900 to 1000 miles</p>
+                        <h3>Seats</h3>
+                        <p>Two layers of seats. Two seats in the front row and three seats on a bench style
+                            seating on the back row.</p>
+                        <h3>Cargo Volume</h3>
+                        <p>80 cubic feet</p>
+                        <p>Has fast charging if used with Omnix fast charger</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <div class="row">
+        <div class="col-sm">
+            <div class="crd" id="1">
+                <h2>Tier 1</h2>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="crd" id="2">
+                <h2>Tier 2</h2>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="crd" id="3">
+                <h2>Tier 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
         <div class="main-footer widgets-dark typo-light">
             <div class="container">
                 <div class="row">
@@ -150,18 +218,14 @@
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script>
-        AOS.init();
-    </script>
+
 </body>
 
 </html>
