@@ -15,6 +15,36 @@ body, html {
   color: white;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("/omnix-inc/home/img/backgroundImage.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  justify-content: center;
+  font-size: 90px;
+}
+
+h2 {
+  color: white;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.hedr {
+  padding: 40px;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
 footer .main-footer {
   padding: 20px 0;
   background: #252525;
@@ -225,6 +255,29 @@ ul.social-footer2 li a {
   -ms-transition: all 250ms ease-in-out 0s;
   -o-transition: all 250ms ease-in-out 0s;
   transition: all 250ms ease-in-out 0s;
+}
+
+.footer-1 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #fff;
+}
+
+.modB {
+  background-color: black;
+  color: white;
+}
+
+.circ {
+  padding: 30px;
+  border-radius: 12px;
+  border: white 1px solid;
+  margin: 20px;
+  text-align: center;
+}
+.circ h3 {
+  text-align: left;
 }
 
 /*# sourceMappingURL=carStyle.css.map */

@@ -17,7 +17,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("/omnix-inc/home/img/backgroundImage.png");
+  background-image: url("https://i.pinimg.com/originals/31/18/5a/31185aed9953179e5558c1b778645ca6.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -27,7 +27,7 @@ body, html {
 }
 
 h1 {
-  color: white;
+  color: black;
   justify-content: center;
   font-size: 90px;
 }
@@ -51,7 +51,7 @@ h1 {
 
 .arrow:before,
 .arrow:after {
-  background: #fff;
+  background: black;
   content: "";
   display: block;
   height: 3px;
