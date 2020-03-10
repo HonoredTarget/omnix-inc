@@ -40,7 +40,7 @@ function Exit1() {
 
 function Enter1() {
     $("#1").css("background-color", "white");
-    $("#1").html("<h3>Car has autonomous abilities only on highways where roads do not have sharp turns. Parking autonomous ability not available in Omnix S tier one upgrade.</h3>");
+    $("#1").html("<h3>Payload increase to 3500 pounds with a towing capacity increase to 11,000 pounds. This is accomplished by putting a 2nd high octane motor within the chassis of the truck.</h3>");
 }
 function Exit2() {
     $("#2").css("background-color", "rgb(165, 165, 165)");
@@ -49,7 +49,7 @@ function Exit2() {
 
 function Enter2() {
     $("#2").css("background-color", "white");
-    $("#2").html("<h3>Parking autonomous ability is incorporated. Also, pre existing solar panels come with the Omnix A in order to provide an extra source of power to the Omnix A vehicle.</h3>");
+    $("#2").html("<h3>Acceleration improves with the truck able to go 0 mph to 60 mph in 5 seconds with the use of carbon fiber steel in the chassis.</h3>");
 }
 function Exit3() {
     $("#3").css("background-color", "rgb(165, 165, 165)");
@@ -58,6 +58,6 @@ function Exit3() {
 
 function Enter3() {
     $("#3").css("background-color", "white");
-    $("#3").html("<h3>Full autonomous abilities available in the Tier Three upgrade. Also, a second (smaller) electric motor is put in to increase the top speed to 330 mph.</h3>");
+    $("#3").html("<h3>Truck has semi-autonomous abilities that allow it to drive without control on highways and can park without control.</h3>");
 }
 

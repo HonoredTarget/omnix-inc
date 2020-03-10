@@ -40,7 +40,7 @@ function Exit1() {
 
 function Enter1() {
     $("#1").css("background-color", "white");
-    $("#1").html("<h3>Car has autonomous abilities only on highways where roads do not have sharp turns. Parking autonomous ability not available in Omnix S tier one upgrade.</h3>");
+    $("#1").html("<h3>Car has semi-autonomous abilities that allow it to drive without control on highways and can park without control.</h3>");
 }
 function Exit2() {
     $("#2").css("background-color", "rgb(165, 165, 165)");
@@ -49,7 +49,7 @@ function Exit2() {
 
 function Enter2() {
     $("#2").css("background-color", "white");
-    $("#2").html("<h3>Parking autonomous ability is incorporated. Also, pre existing solar panels come with the Omnix A in order to provide an extra source of power to the Omnix A vehicle.</h3>");
+    $("#2").html("<h3>Solar charging abilities. There is a solar panel that is attached to the roof of the car. On a sunny day, this solar panel can increase the range by up to 300 miles.</h3>");
 }
 function Exit3() {
     $("#3").css("background-color", "rgb(165, 165, 165)");
@@ -58,6 +58,6 @@ function Exit3() {
 
 function Enter3() {
     $("#3").css("background-color", "white");
-    $("#3").html("<h3>Full autonomous abilities available in the Tier Three upgrade. Also, a second (smaller) electric motor is put in to increase the top speed to 330 mph.</h3>");
+    $("#3").html("<h3>A 2nd motor is put into the car to increase the top speed to 300 mph and the acceleration allows the car to go from 0 mph to 60 mph in 3.9 seconds.</h3>");
 }
 

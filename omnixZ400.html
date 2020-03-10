@@ -16,7 +16,9 @@
         gtag('config', 'UA-141206892-3');
     </script>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,8 +27,12 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Crimson+Text&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="home/style/index.css">
-    <title>Ominix Inc: Omnix A</title>
+    <link rel="stylesheet" href="cars2/style/carStyle.css">
+    <title>Omnix Z-400 | Omnix Inc</title>
+
+    <script src="cars2/js/carScriptZ.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -42,7 +48,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -58,9 +64,69 @@
         </div>
     </nav>
 
+    <div class="bg">
+        <div class="hedr">
+            <h1>Omnix Z-400</h1>
+            <h2>Rivaled by None.</h2>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-md modA">
+            <div class="iAge"></div>
+        </div>
+        <div class="col-md modA">
+            <div class="Stats">
+                <h2>Stat Breakdown</h2>
+                <div class="row">
+                    <div class="col-md">
+                        <h3>Drivetrain</h3>
+                        <p>Four wheel drive</p>
+                        <h3>Acceleration</h3>
+                        <p>Can go from 0 mph to 60 mph in around 7 seconds.</p>
+                        <h3>Top Speed</h3>
+                        <p>150 mph</p>
+                        <h3>Towing Capacity</h3>
+                        <p>8000 Pounds</p>
 
-    <footer id="footer" class="footer-1">
+                    </div>
+                    <div class="col-md">
+                        <h3>Range</h3>
+                        <p>400 to 500 miles</p>
+                        <h3>Seats</h3>
+                        <p> Two layers of seats. 5 seats in total.</p>
+                        <h3>Payload</h3>
+                        <p>2500 Pounds</p>
+                        
+                        <p>Has fast charging if used with Omnix fast charger</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <div class="row">
+        <div class="col-sm">
+            <div class="crd" id="1">
+                <h2>Tier 1</h2>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="crd" id="2">
+                <h2>Tier 2</h2>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="crd" id="3">
+                <h2>Tier 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
         <div class="main-footer widgets-dark typo-light">
             <div class="container">
                 <div class="row">
@@ -150,15 +216,14 @@
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
