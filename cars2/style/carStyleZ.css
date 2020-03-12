@@ -26,16 +26,28 @@ body, html {
   background-size: cover;
 }
 
-h1 {
+
+.hedr h1{
   color: white;
   justify-content: center;
   font-size: 90px;
 }
 
-h2 {
+.hedr h2 {
   color: white;
   justify-content: center;
   font-size: 50px;
+}
+
+ h2 {
+  color: black;
+  justify-content: center;
+  font-size: 50px;
+}
+h1 {
+  color: black;
+  justify-content: center;
+  font-size: 90px;
 }
 
 .hedr {

@@ -326,6 +326,8 @@ ul.social-footer2 li a {
   padding: 20px;
   display: inline-block;
   text-align: center;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
 }
 .disgn .buy {
   padding: 15px;
@@ -377,13 +379,6 @@ ul.social-footer2 li a {
   height: 100%;
 }
 
-.footer-1 {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background: #fff;
-}
-
 .round {
   padding: 50px;
   margin: 50px;
@@ -392,3 +387,4 @@ ul.social-footer2 li a {
 }
 
 /*# sourceMappingURL=index.css.map */
+
